@@ -17,3 +17,4 @@
 (load "slime-conf")
 (load-theme 'atom-one-dark t)
 (load "company-conf")
+(load "aesthetics")
