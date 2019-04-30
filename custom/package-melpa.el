@@ -22,7 +22,8 @@ There are two things you can do about this warning:
 
 ;;; Automatically load the following packages:
 (setq package-list
-      '(auto-package-update atom-one-dark-theme slime))
+      '(auto-package-update atom-one-dark-theme slime
+        company))
 
 (unless package-archive-contents
   (package-refresh-contents))
