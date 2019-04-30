@@ -1,0 +1,2 @@
+# Ignore the generated sbcl core
+*.core-for-slime
