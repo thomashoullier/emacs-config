@@ -19,14 +19,3 @@ There are two things you can do about this warning:
     (add-to-list 'package-archives 
                  (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
-
-;;; Automatically load the following packages:
-(setq package-list
-      '(auto-package-update atom-one-dark-theme slime
-        company))
-
-(unless package-archive-contents
-  (package-refresh-contents))
-(dolist (package package-list)
-  (unless (package-installed-p package)
-    (package-install package)))

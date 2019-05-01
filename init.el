@@ -13,6 +13,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/custom")
 (load "package-melpa")
+(load "package-list")
 (load "auto-package-update-conf")
 (load "slime-conf")
 (load-theme 'atom-one-dark t)
