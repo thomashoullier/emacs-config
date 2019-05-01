@@ -20,3 +20,5 @@
 (load "company-conf")
 (load "aesthetics")
 (load "evil-conf")
+
+(desktop-save-mode 1)
