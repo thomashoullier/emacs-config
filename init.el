@@ -24,5 +24,6 @@
 (load "paredit-conf")
 (load "evil-cleverparens-conf")
 (load "show-paren-conf")
+(load "highlight-parentheses-conf")
 
 (desktop-save-mode 1)
