@@ -8,3 +8,9 @@
 (scroll-bar-mode -1)
 ;; Declutter the mode line, only display the name of the buffer
 (setq-default mode-line-format (list "    %b"))
+;; Fonts
+(defun set-prog-font ()
+	(interactive)
+	(setq buffer-face-mode-face '(:family "Inconsolata" :height 150))
+	(buffer-face-mode))
+(add-hook 'prog-mode-hook 'set-prog-font)
