@@ -1,7 +1,7 @@
 ;;;; List here the packages that need to be installed from the Melpa repository
 (setq package-list
       '(auto-package-update atom-one-dark-theme slime
-        company evil column-enforce-mode))
+        company evil column-enforce-mode paredit))
 
 ;; Automatically launch the installation
 (unless package-archive-contents

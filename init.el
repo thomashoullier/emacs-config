@@ -21,4 +21,5 @@
 (load "aesthetics")
 (load "evil-conf")
 (load "cem-conf")
+(load "paredit-conf")
 (desktop-save-mode 1)
