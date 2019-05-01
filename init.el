@@ -22,4 +22,5 @@
 (load "evil-conf")
 (load "cem-conf")
 (load "paredit-conf")
+(load "evil-cleverparens-conf")
 (desktop-save-mode 1)
