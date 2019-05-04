@@ -27,4 +27,6 @@
 (load "highlight-parentheses-conf")
 
 (load "keybindings")
+(load "key-chord-conf")
+
 (desktop-save-mode 1)
