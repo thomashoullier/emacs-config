@@ -3,7 +3,7 @@
 ;;; Settings
 (setq inferior-lisp-program "~/.emacs.d/sbcl-core/sbcl-init.sh")
 ;;; Loading slime contributions
-(setq slime-contribs '(slime-repl slime-autodoc))
+(setq slime-contribs '(slime-repl slime-autodoc slime-indentation))
 ;;; Activating autodoc in Common-lisp modes
 (add-hook 'lisp-mode-hook 'slime-autodoc-mode)
 (add-hook 'lisp-interaction-mode-hook 'slime-autodoc-mode)
