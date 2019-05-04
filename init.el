@@ -26,4 +26,5 @@
 (load "show-paren-conf")
 (load "highlight-parentheses-conf")
 
+(load "keybindings")
 (desktop-save-mode 1)
