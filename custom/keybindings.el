@@ -5,3 +5,7 @@
 
 (global-unset-key (kbd "M-'"))
 (define-key lisp-mode-map (kbd "M-'") 'slime-compile-and-load-file)
+
+(define-key paredit-mode-map (kbd "M-;") nil)
+(global-unset-key (kbd "M-;"))
+(define-key prog-mode-map (kbd "M-;") 'comment-line)
