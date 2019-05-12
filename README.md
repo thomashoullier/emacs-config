@@ -25,6 +25,12 @@ We use the MELPA package repository. We use the following packages, listed under
   * key-chord: Enable mapping functions to key sequences.
 
 ## Key bindings
+When designing Vi bindings:
+  * The home row is in your own house.
+  * The keys directly around it are within the town your house is in.
+  * The number row is in another country.
+  * The arrow keys are on the Moon and you're on foot.
+
 Very few keybindings are configured at the moment.
 
 ### Basic navigation
