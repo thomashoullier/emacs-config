@@ -7,7 +7,7 @@ Lisp implementation. The default folder for this configuration is
 box. Please use this only to gather information on which packages work together
 and how to configure them. ⚠⚠⚠
 
-[Emacs layout screenshot](doc/emacs-screenshot.png)
+![Emacs layout screenshot](doc/emacs-screenshot.png)
 
 The visual aspect is pretty terse and with minimal distraction.
 
