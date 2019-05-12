@@ -9,3 +9,10 @@
 (define-key paredit-mode-map (kbd "M-;") nil)
 (global-unset-key (kbd "M-;"))
 (define-key prog-mode-map (kbd "M-;") 'comment-line)
+
+;(evil-define-key 'normal smartparens-mode-map (kbd "M-s") nil)
+;(add-hook 'prog-mode-hook (lambda () (smartparens-mode -1)) t)
+;(eval-after-load "smartparens"
+;  (define-key smartparens-mode-map (kbd "M-s") nil))
+;(global-unset-key (kbd "M-s"))
+;(global-set-key (kbd "M-s") 'save-buffer)
