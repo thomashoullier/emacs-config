@@ -1,7 +1,11 @@
 # Emacs configuration files for Common Lisp development
 For reference, we use the vanilla Emacs with GTK3. We use `sbcl` as our Common
 Lisp implementation. The default folder for this configuration is
-`~/.emacs.d`.
+`~/.emacs.d`. This configuration works for Linux.
+
+⚠⚠⚠ This is a work in progress. This is not supposed to work for you out of the
+box. Please use this only to gather information on which packages work together
+and how to configure them. ⚠⚠⚠
 
 ## Packages
 We use the MELPA package repository. We use the following packages, listed under
@@ -38,8 +42,7 @@ Very few keybindings are configured at the moment.
 | Key | Function | Description |
 | -------- | -------- | -------- |
 | M-f | find-file | Search and open a file|
-| M-' | slime-compile-and-load-file | Compile the current file and load it in \
-the Lisp |
+| M-' | slime-compile-and-load-file | Compile the current file and load it| 
 
 ## Creating a SBCL core
 This configuration loads a SBCL core with preloaded libraries:
