@@ -63,7 +63,7 @@ This configuration loads a SBCL core with preloaded libraries:
 To create the SBCL core:
   - Ensure that SBCL is mapped to `sbcl` in your `$PATH` on your system or adapt
     it in `sbcl-core/generate-core.sh`.
-  - Run `sbcl-core/genere-core.sh`.
+  - Run `sbcl-core/generate-core.sh`.
   - Possibly fix the path to the core to load in `slime-conf.el`. The default
     being `sbcl-core/sbcl.core-for-slime` in `sbcl-core/sbcl-init.sh`.
 You need to regenerate such a core everytime SBCL is updated.
