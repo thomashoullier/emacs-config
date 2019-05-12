@@ -1,6 +1,7 @@
 # Ignore the generated sbcl core
 *.core-for-slime
 # other
-*.emacs.desktop
+*.emacs.desktop*
 *.last-package-update-day
 elpa/
+auto-save-list/
