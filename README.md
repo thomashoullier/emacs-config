@@ -77,3 +77,7 @@ You need to regenerate such a core everytime SBCL is updated.
     looking for something that works out of the box and that you don't need to
     configure then please go there. 
   * https://www.emacswiki.org/ for the configuration of some packages.
+
+## Licensing
+I copy-pasted some things from the EmacsWiki, so we redistribute this work under
+their GPLv2 license.
