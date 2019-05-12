@@ -7,6 +7,10 @@ Lisp implementation. The default folder for this configuration is
 box. Please use this only to gather information on which packages work together
 and how to configure them. ⚠⚠⚠
 
+[Emacs layout screenshot](doc/emacs-screenshot.png)
+
+The visual aspect is pretty terse and with minimal distraction.
+
 ## Packages
 We use the MELPA package repository. We use the following packages, listed under
 `custom/package-list.el`:
@@ -72,3 +76,4 @@ You need to regenerate such a core everytime SBCL is updated.
   * I took a lot of inspiration in https://github.com/portacle. If you are
     looking for something that works out of the box and that you don't need to
     configure then please go there. 
+  * https://www.emacswiki.org/ for the configuration of some packages.
