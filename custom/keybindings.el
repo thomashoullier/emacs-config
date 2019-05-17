@@ -10,6 +10,9 @@
 (global-unset-key (kbd "M-;"))
 (define-key prog-mode-map (kbd "M-;") 'comment-line)
 
+;(smartparens-mode -1)
+;(define-key evil-normal-state-map (kbd "M-s") nil)
+;(evil-define-key smartparens-mode-map (kbd "M-s") nil)
 ;(evil-define-key 'normal smartparens-mode-map (kbd "M-s") nil)
 ;(add-hook 'prog-mode-hook (lambda () (smartparens-mode -1)) t)
 ;(eval-after-load "smartparens"

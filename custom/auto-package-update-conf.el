@@ -4,7 +4,7 @@
 
 ;;; Settings
 ;; Update every X days.
-(setq auto-package-update-interval 2)
+(setq auto-package-update-interval 14)
 ;; Delete old versions of packages
 (setq auto-package-update-delete-old-versions t)
 
