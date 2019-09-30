@@ -25,6 +25,7 @@
 (load "show-paren-conf")
 (load "highlight-parentheses-conf")
 (load "on-save")
+(load "on-exit")
 
 (load "keybindings")
 (load "key-chord-conf")
