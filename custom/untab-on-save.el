@@ -8,5 +8,5 @@
   nil)
 
 (add-hook 'prog-mode-hook
-    '(lambda ()
-       (add-hook 'write-contents-hooks 'untab-all nil t) ))
+    (lambda ()
+       (add-to-list 'write-file-functions 'untab-all)))
