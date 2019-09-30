@@ -24,7 +24,7 @@
 (load "evil-cleverparens-conf")
 (load "show-paren-conf")
 (load "highlight-parentheses-conf")
-(load "untab-on-save")
+(load "on-save")
 
 (load "keybindings")
 (load "key-chord-conf")
