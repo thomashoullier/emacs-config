@@ -21,6 +21,11 @@
 ;; Hide files matching the following regexps: 
 (setq neo-hidden-regexp-list 
   '("^\\." "\\.pyc$" "~$" "^#.*#$" "\\.elc$" "\\.o$" "\\.fasl$"))
+;; Hide the current folder line.
+(setq neo-show-updir-line nil)
+(setq neo-theme 'nerd)
+;; No mode line
+(setq neo-mode-line-type 'none)
 
 ;;; Bindings
 (global-set-key [f8] 'neotree-project-dir)
@@ -34,6 +39,7 @@
 (evil-define-key 'normal neotree-mode-map (kbd "h") 'neotree-select-up-node)
 (evil-define-key 'normal neotree-mode-map (kbd "L") 'neotree-enter)
 (evil-define-key 'normal neotree-mode-map (kbd "l") 'neotree-quick-look)
+(evil-define-key 'normal neotree-mode-map (kbd "r") 'neotree-change-root)
 
 ;; Open while in evil buffer
 ;; USE GENERAL INSTEAD
