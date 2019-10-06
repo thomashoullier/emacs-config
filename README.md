@@ -53,8 +53,7 @@ Very few keybindings are configured at the moment.
 |kj (keychord)|evil-normal-state|Force evil normal state (eg. exit insert mode)|
 | J | evil-join | Append next line to current line |
 | w | neotree-project-dir | Open neotree in the current project |
-| M-\ | (switch-to-buffer "*slime-repl sbcl*") | \
-Switch to the repl in the current window |
+| M-\ | (switch-to-buffer "*slime-repl sbcl*") | Switch to the repl in the current window |
 
 ### Files
 | Key | Function | Description |
