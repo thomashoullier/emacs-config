@@ -26,6 +26,7 @@
 (load "highlight-parentheses-conf")
 (load "on-save")
 (load "on-exit")
+(load "neotree-conf")
 
 (load "keybindings")
 (load "key-chord-conf")

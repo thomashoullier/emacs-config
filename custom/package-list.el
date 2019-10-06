@@ -2,7 +2,7 @@
 (setq package-list
       '(auto-package-update atom-one-dark-theme slime
         company evil column-enforce-mode paredit evil-cleverparens
-        highlight-parentheses key-chord))
+        highlight-parentheses key-chord neotree projectile))
 
 ;; Automatically launch the installation
 (unless package-archive-contents
