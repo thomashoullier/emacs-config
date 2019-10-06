@@ -46,7 +46,7 @@ Very few keybindings are configured at the moment.
 | k | evil-previous-line | **up** |
 | l | evil-forward-char | Move the cursor **right** by one character |
 | h | evil-backward-char | **left** |
-| M-o | other-window | Cycle between open Emacs buffers|
+| M-o | other-window | Cycle between open Emacs windows|
 | M-; | comment-line | Comment the current line. No parenthesis awareness |
 |kj (keychord)|evil-normal-state|Force evil normal state (eg. exit insert mode)|
 | J | evil-join | Append next line to current line |
