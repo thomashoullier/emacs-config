@@ -16,6 +16,12 @@
                 (neotree-find file-name)))
         (message "Could not find git project root."))))
 
+
+
+;; Hide files matching the following regexps: 
+(setq neo-hidden-regexp-list 
+  '("^\\." "\\.pyc$" "~$" "^#.*#$" "\\.elc$" "\\.o$" "\\.fasl$"))
+
 ;;; Bindings
 (global-set-key [f8] 'neotree-project-dir)
 (evil-define-key 'normal neotree-mode-map (kbd "q") 'neotree-hide)
