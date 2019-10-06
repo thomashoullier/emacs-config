@@ -10,6 +10,10 @@
 (global-unset-key (kbd "M-;"))
 (define-key prog-mode-map (kbd "M-;") 'comment-line)
 
+;; Jump to the REPL from wherever
+(global-set-key 
+  (kbd "M-\\") (lambda () (interactive) (switch-to-buffer "*slime-repl sbcl*")))
+
 ;(smartparens-mode -1)
 ;(define-key evil-normal-state-map (kbd "M-s") nil)
 ;(evil-define-key smartparens-mode-map (kbd "M-s") nil)
