@@ -29,7 +29,7 @@
 
 ;;; Bindings
 (global-set-key [f8] 'neotree-project-dir)
-(evil-define-key 'normal neotree-mode-map (kbd "q") 'neotree-hide)
+(evil-define-key 'normal neotree-mode-map (kbd "w") 'neotree-hide)
 (evil-define-key 'normal neotree-mode-map (kbd "RET") 'neotree-enter)
 (evil-define-key 'normal neotree-mode-map (kbd "g") 'neotree-refresh)
 (evil-define-key 'normal neotree-mode-map (kbd "j") 'neotree-next-line)
@@ -43,5 +43,9 @@
 
 ;; Open while in evil buffer
 ;; USE GENERAL INSTEAD
-;;(define-key evil-normal-state-map (kbd "w") 'neotree-project-dir)
+;(define-key evil-motion-state-map "w" 'neotree-project-dir)
+;(define-key evil-outer-text-objects-map "w" 'neotree-project-dir)
+;(define-key evil-inner-text-objects-map "w" 'neotree-project-dir)
+(evil-define-key 
+  'normal evil-cleverparens-mode-map (kbd "w") 'neotree-project-dir)
 

@@ -27,6 +27,8 @@ We use the MELPA package repository. We use the following packages, listed under
   * column-enforce-mode: Highlight text that goes over a certain column.
   * highlight-parentheses: Highlight matching parentheses.
   * key-chord: Enable mapping functions to key sequences.
+  * neotree: File tree browser.
+  * projectile: Project/repository awareness.
 
 ## Key bindings
 When designing Vi keyboard bindings:
@@ -50,12 +52,25 @@ Very few keybindings are configured at the moment.
 | M-; | comment-line | Comment the current line. No parenthesis awareness |
 |kj (keychord)|evil-normal-state|Force evil normal state (eg. exit insert mode)|
 | J | evil-join | Append next line to current line |
+| w | neotree-project-dir | Open neotree in the current project |
 
 ### Files
 | Key | Function | Description |
 | -------- | -------- | -------- |
 | M-f | find-file | Search and open a file|
 | M-' | slime-compile-and-load-file | Compile the current file and load it| 
+
+### neotree
+| Key | Function | Description |
+| -------- | -------- | -------- |
+| w | neotree-hide | Quit neotree |
+| j | neotree-next-line | neotree navigation: down |
+| k | neotree-previous-line | neotree navigation: up |
+| l | neotree-quick-look | Open file but do not switch to it |
+| L | neotree-enter | Open file and switch to it |
+| h | neotree-select-up-node | Go up in the file tree |
+| r | neotree-change-root | Current directory becomes root of neotree |
+| H | neotree-hidden-file-toggle | Toggle hidden files display |
 
 ## Creating a SBCL core
 This configuration loads a SBCL core with preloaded libraries:
