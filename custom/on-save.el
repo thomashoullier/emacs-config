@@ -10,7 +10,8 @@
   nil)
 
 (defun indent-all ()
-  (indent-region (point-min) (point-max) nil))
+  (indent-region (point-min) (point-max))
+  nil)
 
 (add-hook 'prog-mode-hook
   (lambda () (add-to-list 'write-file-functions 'untab-all)))
