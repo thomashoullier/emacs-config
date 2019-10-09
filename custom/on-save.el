@@ -9,9 +9,12 @@
     (untabify (point-min) (point-max)) )
   nil)
 
+(defun indent-all ()
+  (indent-region (point-min) (point-max) nil))
+
 (add-hook 'prog-mode-hook
   (lambda () (add-to-list 'write-file-functions 'untab-all)))
-
-;;; Remove trailing white spaces
 (add-hook 'prog-mode-hook
   (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
+(add-hook 'prog-mode-hook
+  (lambda () (add-to-list 'write-file-functions 'indent-all)))
