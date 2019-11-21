@@ -3,7 +3,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages nil)
+ '(package-selected-packages
+   (quote
+    (racket-mode slime projectile neotree key-chord highlight-parentheses evil-cleverparens company column-enforce-mode auto-package-update atom-one-dark-theme)))
  '(safe-local-variable-values
    (quote
     ((Package . Lisp-Binary)
