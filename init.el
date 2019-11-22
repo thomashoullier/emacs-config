@@ -38,6 +38,10 @@
 (load "neotree-conf")
 (load "images-conf")
 
+;; Racket specific
+(load "racket-mode-conf")
+
+;; General key bindings.
 (load "keybindings")
 (load "key-chord-conf")
 
