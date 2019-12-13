@@ -73,6 +73,14 @@ Very few keybindings are configured at the moment.
 | r | neotree-change-root | Current directory becomes root of neotree |
 | H | neotree-hidden-file-toggle | Toggle hidden files display |
 
+### magit
+| Key | Function | Description |
+| -------- | -------- | -------- |
+| M-g | magit-status | Open magit |
+
+The full list of bindings in `evil-magit` should be found on its
+![github](https://github.com/emacs-evil/evil-magit/tree/1decef941f252bfd862be50d99bfbc0660dfa18c).
+
 ## Creating a SBCL core
 This configuration loads a SBCL core with preloaded libraries:
   * sb-bsd-sockets

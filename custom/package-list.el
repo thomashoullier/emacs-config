@@ -3,7 +3,7 @@
       '(auto-package-update atom-one-dark-theme slime
         company evil column-enforce-mode paredit evil-cleverparens
         highlight-parentheses key-chord neotree projectile
-	racket-mode))
+	racket-mode magit evil-magit))
 
 ;; Automatically launch the installation
 (unless package-archive-contents

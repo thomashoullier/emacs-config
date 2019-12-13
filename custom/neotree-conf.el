@@ -43,9 +43,5 @@
 
 ;; Open while in evil buffer
 ;; USE GENERAL INSTEAD
-;(define-key evil-motion-state-map "w" 'neotree-project-dir)
-;(define-key evil-outer-text-objects-map "w" 'neotree-project-dir)
-;(define-key evil-inner-text-objects-map "w" 'neotree-project-dir)
 (evil-define-key 
   'normal evil-cleverparens-mode-map (kbd "w") 'neotree-project-dir)
-
