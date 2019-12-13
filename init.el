@@ -37,6 +37,7 @@
 (load "on-exit")
 (load "neotree-conf")
 (load "images-conf")
+(load "evil-magit-conf")
 
 ;; Racket specific
 (load "racket-mode-conf")

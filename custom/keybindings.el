@@ -14,6 +14,9 @@
 (global-set-key 
   (kbd "M-\\") (lambda () (interactive) (switch-to-buffer "*slime-repl sbcl*")))
 
+;; Magit status
+(global-set-key (kbd "M-g") 'magit-status)
+
 ;(smartparens-mode -1)
 ;(define-key evil-normal-state-map (kbd "M-s") nil)
 ;(evil-define-key smartparens-mode-map (kbd "M-s") nil)
