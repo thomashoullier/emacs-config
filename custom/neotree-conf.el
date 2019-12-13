@@ -16,8 +16,6 @@
                 (neotree-find file-name)))
         (message "Could not find git project root."))))
 
-
-
 ;; Hide files matching the following regexps: 
 (setq neo-hidden-regexp-list 
   '("^\\." "\\.pyc$" "~$" "^#.*#$" "\\.elc$" "\\.o$" "\\.fasl$"))
@@ -26,6 +24,8 @@
 (setq neo-theme 'nerd)
 ;; No mode line
 (setq neo-mode-line-type 'none)
+;; Show VC status of files
+(setq neo-vc-integration '(face))
 
 ;;; Bindings
 (global-set-key [f8] 'neotree-project-dir)
