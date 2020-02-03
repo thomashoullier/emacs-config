@@ -17,12 +17,3 @@
 ;; Magit status
 (global-set-key (kbd "M-g") 'magit-status)
 
-;(smartparens-mode -1)
-;(define-key evil-normal-state-map (kbd "M-s") nil)
-;(evil-define-key smartparens-mode-map (kbd "M-s") nil)
-;(evil-define-key 'normal smartparens-mode-map (kbd "M-s") nil)
-;(add-hook 'prog-mode-hook (lambda () (smartparens-mode -1)) t)
-;(eval-after-load "smartparens"
-;  (define-key smartparens-mode-map (kbd "M-s") nil))
-;(global-unset-key (kbd "M-s"))
-;(global-set-key (kbd "M-s") 'save-buffer)

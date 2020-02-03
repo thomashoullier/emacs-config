@@ -1,3 +1,4 @@
+(setq evil-cleverparens-use-additional-bindings nil)
 (require 'evil-cleverparens)
 
 (add-hook 'emacs-lisp-mode-hook #'evil-cleverparens-mode)
