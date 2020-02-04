@@ -17,3 +17,6 @@
 ;; Magit status
 (global-set-key (kbd "M-g") 'magit-status)
 
+;; Unbind M-s
+(with-eval-after-load 'evil-cleverparens
+  (evil-define-key 'normal evil-cleverparens-mode-map (kbd "M-s") nil))
