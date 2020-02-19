@@ -39,6 +39,9 @@
 (load "images-conf")
 (load "evil-magit-conf")
 
+;; Markdown
+(load "markdown-mode-conf")
+
 ;; Racket specific
 (load "racket-mode-conf")
 
