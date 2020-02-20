@@ -49,11 +49,16 @@ Very few keybindings are configured at the moment.
 | l | evil-forward-char | Move the cursor **right** by one character |
 | h | evil-backward-char | **left** |
 | M-o | other-window | Cycle between open Emacs windows|
-| M-; | comment-line | Comment the current line. No parenthesis awareness |
 |kj (keychord)|evil-normal-state|Force evil normal state (eg. exit insert mode)|
-| J | evil-join | Append next line to current line |
 | w | neotree-project-dir | Open neotree in the current project |
 | M-\\ | (switch-to-buffer "\*slime-repl sbcl\*") | Switch to the repl in the current window |
+
+### Edit
+| Key | Function | Description |
+| -------- | -------- | -------- |
+| M-; | comment-line | Comment the current line. No parenthesis awareness |
+| J | evil-join | Append next line to current line |
+| M-( | insert-parentheses | Wrap parentheses around sexp |
 
 ### Files
 | Key | Function | Description |
