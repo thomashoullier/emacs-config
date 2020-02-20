@@ -14,3 +14,4 @@
 	(setq buffer-face-mode-face '(:family "Inconsolata" :height 150))
 	(buffer-face-mode))
 (add-hook 'prog-mode-hook 'set-prog-font)
+(add-hook 'markdown-mode-hook 'set-prog-font)
